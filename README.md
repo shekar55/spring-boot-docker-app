@@ -19,3 +19,11 @@ mvn spring-boot:run
 ```
 mvn spring-boot:build-image
 ```
+
+## Docker commands 
+
+1. *Build Image* - ```docker build -t hello-world``` .
+2. *Tag Image* - ```docker tag hello-world:latest javamultiplex/hello-world:latest```
+3. *Push Image* - ```docker push javamultiplex/hello-world:latest```
+4. *Pull Image* - ```docker pull javamultiplex/hello-world:latest```
+5. *Run Image* - ```docker run -d -p8080:8080 javamultiplex/hello-world:latest```
